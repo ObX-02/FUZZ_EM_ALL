@@ -9,13 +9,13 @@ print(f"Target Selected: {Target}")
 count = 0
 with open("common.txt","r")as f:
     print("========================================")
-    print("reading Wordlist......")
+    print("Reading Wordlist......")
     print("========================================")
 
 
     for data in f:
         count+=1
-        print(f"{count:2} {data.strip()}")
+        print(f"{count:2} {Target}{data.strip()}")
     
 
         
