@@ -1,4 +1,4 @@
-/admin
+admin
 /login
 /dashboard
 /robots.txt

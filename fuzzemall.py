@@ -5,6 +5,8 @@ print("========================================")
 Target = input("Enter Target's URL: ").strip()
 if not Target.startswith(("http://","https://")):
     Target = "https://" + Target
+if not Target.endswith("/"):
+    Target = Target + "/"
     
 print(f"Target Selected: {Target}")
 with open("common.txt","r")as f:
@@ -15,21 +17,43 @@ with open("common.txt","r")as f:
     count = 0
     for data in f:
         count+=1
-        full_url = Target + data.strip()
+        full_url = Target + data.strip().lstrip("/")
         print(f"{count:2} {full_url}") 
 print("========================================")
-print("Checking Target Reponse.......")
+print("          Checking Target Reponse.......")
 print("========================================")
-f.close()
 count = 0
 with open("common.txt","r")as f:
+    headers = {
+    "User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+}
+    found = 0
+    not_found = 0
     for data in f:
         count+=1
-        full_url = Target + data.strip()
-        response = requests.get(full_url)
-        print(f"{count:2} {full_url}        {response.status_code}") 
-        
-        
+        full_url = Target + data.strip().lstrip("/")
+        try:
+            response = requests.get(full_url, headers= headers, timeout = 3)
+            size = len(response.content)
+            if response.status_code != 404:
+                found+= 1
+                print(f"{count:2} {full_url}        {response.status_code}        {size} Bytes") 
+            else:
+                not_found+=1  
+                 
+
+        except requests.exceptions.RequestException:
+            print(f"Connection Failed: {full_url}")
+            
+
+print("========================================")
+print("             Scan Finished              ")
+print("========================================")
+print(f"found: {found}")
+print(f"not found: {not_found}") 
+print("========================================")
+
+
   
 
     
