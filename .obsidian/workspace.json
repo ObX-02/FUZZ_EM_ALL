@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "573e9661fc4db61d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1993019e8a4701fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "335af619f10466b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attacking Web Applications with Ffuf (Fuzz Faster U Fool).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Attacking Web Applications with Ffuf (Fuzz Faster U Fool)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4ed9a041fa0537a",
+    "type": "split",
+    "children": [
+      {
+        "id": "990e056a5e490096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5dc6bf97cdbb27e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e6eb3d8d5308a532",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b60db61c90b6beea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aed6ef8575cbaef4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5b2ae9316ec2267",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ebd4ed167e53fd4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project Name Fuzz 'EM All!.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Project Name Fuzz 'EM All!"
+            }
+          },
+          {
+            "id": "005272cd67405041",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Project Name Fuzz 'EM All!.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Project Name Fuzz 'EM All!"
+            }
+          },
+          {
+            "id": "4e8d044046d7cd00",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "93abcb3b6296cd15",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7e221ce0754b18e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project Name Fuzz 'EM All!.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Project Name Fuzz 'EM All!"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "335af619f10466b8",
+  "lastOpenFiles": [
+    "Project Name Fuzz 'EM All!.md",
+    "2. sonja13_790@renty.lat.md",
+    "accountd.md",
+    "facebook acconts.md",
+    "Attacking Web Applications with Ffuf (Fuzz Faster U Fool).md",
+    "Directory Fuzzing.md",
+    "some more accounts.md",
+    "accounts.md",
+    "fresh.md",
+    "=mail.md",
+    "Untitled 1.md"
+  ]
+}
